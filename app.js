@@ -1,4 +1,5 @@
 {
+	// requirement is to find the smallest number
 	function findSmallestInt(arr) {
 		return Math.min(...arr)
 	}
@@ -7,6 +8,7 @@
 }
 
 {
+	// requitement is to converting string to number
 	const stringToNumber = function (str) {
 		return Number(str)
 	}
@@ -14,6 +16,7 @@
 }
 
 {
+	// requirement is to find sum sum of the number
 	var summation = function (num) {
 		return (num * (num + 1)) / 2
 	}
@@ -21,6 +24,7 @@
 }
 
 {
+	// requirement is to find the all the trues
 	function countSheeps(sheep) {
 		return sheep.filter(Boolean).length
 	}
@@ -56,6 +60,7 @@
 }
 
 {
+	// requirement is to find the smallest number and the biggest number
 	function highAndLow(numbers) {
 		const nums = numbers.split(' ').map(Number)
 		return `${Math.max(...nums)} ${Math.min(...nums)}`
@@ -66,6 +71,7 @@
 }
 
 {
+	// requirement is to find max and min number
 	function highAndLow(numbers) {
 		numbers = numbers.split(' ')
 		return Math.max(...numbers) + ' ' + Math.min(...numbers)
@@ -75,6 +81,7 @@
 }
 
 {
+	// requirement is to remove the gaps between the string
 	function noSpace(x) {
 		return x.replace(/\s+/g, '')
 	}
@@ -83,6 +90,7 @@
 }
 
 {
+	// requirement is to make a greeting function
 	function greet(name) {
 		return `Hello, ${name} how are you doing today?`
 		name
